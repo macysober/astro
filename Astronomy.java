@@ -56,14 +56,6 @@ if( help == 1) {
   System.out.println("Star A's flux is 16 times higher than star B\n");
   
   
-  System.out.println("Try another question!");
-  System.out.println("2. Which of the following is NOT true about Sunspots?");
-System.out.println("\t" + " a) sunspots take less time to complete a rotation when they are near the equator");
-System.out.println("\t" + " b) sunspots at higher latitudes take 25 days to rotate");
-System.out.println("\t" + " c) the magnetic field is low outside the sunspot");
-System.out.println("\t" + " d) sunspots are produced by a 22 year cycle\n");
-help = keyboard.nextInt(); 
-}
   if(help == 2) {
     System.out.println(" Answer: B\n");
     System.out.print(" Explanation: Remember, if a sunspot has a higher latitude, it is further from the equator");
