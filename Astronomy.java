@@ -41,6 +41,8 @@ System.out.println("9. Why does the Moon go through phases over the course of a 
 System.out.println("\t" + " a) The Earth casts a shadow of varying size and shape on the Moon.");
 System.out.println("\t" + " b) The illuminated portion of the Moon's face visible from Earth changes.");
 System.out.println("\t" + " c) The shape of the Moon and its rotation combine to produce moon phases.\n");
+System.out.println("10. Is it likely that a large Jovian planet would form at the distance of Mercury from the Sun? (yes or no)\n");
+      
 int help = keyboard.nextInt(); 
 
 if( help == 1) {
@@ -124,5 +126,13 @@ if(help == 9)
   System.out.print("Explanation: The phases of the moon do not relate to shadows or the shape of the moon. It depends on the illumination portion");
   System.out.println("visible depending on your location on Earth as the sun rotates.");
 }
+  if(help == 10)
+  {
+    System.out.print("The answer is no. Remember Jovian planets are the larger ones in the outer part of the solar system.");
+    System.out.print("It's composition and size is dependent on it's distance to the Sun and since Mercury is a terrestrial planet, a Jovian");
+    System.out.println("planet can not form that close to the Sun.");
+    System.out.println("Inner planets = heavy element, high density, rocky, small");
+    System.out.println("Outer planets = light, low density, icy/gaseous, large");
     }
 }
+    }
